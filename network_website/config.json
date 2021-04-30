@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "rdizzle",
+    "link": "",
+    "text": "Randolph Gotham"
+  },
+  "text": {
+    "more": "An artist has a related artist if a given artists\u0027 Spotify Related Artists page lists the other artist. An edge is drawn if this is the case.\n Node size is correlated by Betweenness Centrality; that is, large nodes have a high Betweenness score. ",
+    "intro": "Network of artists and their related artists as found on Spotify",
+    "title": "Spotify Related Artist Network"
+  },
+  "legend": {
+    "edgeLabel": "Relation Between Artists",
+    "colorLabel": "Gephi-Determined Communities",
+    "nodeLabel": "Artists"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "genre",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
