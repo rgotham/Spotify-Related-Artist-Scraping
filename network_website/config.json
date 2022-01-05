@@ -3,27 +3,27 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "rdizzle",
+    "file": "",
     "link": "",
-    "text": "Ran Dee"
+    "text": "Randy G"
   },
   "text": {
-    "more": "An artist has a related artist if a given artists\u0027 Spotify Related Artists page lists the other artist. An edge is drawn if this is the case.\n Node size is correlated by Betweenness Centrality; that is, large nodes have a high Betweenness score. \n\nInitial Data Information:\n[\u0027100 gecs\u0027,\u0027yung bae\u0027,\u0027alan walker\u0027,\u0027varien\u0027,\u0027all time low\u0027,\u0027mod sun\u0027,\u0027igorrr\u0027,\u0027drumcorps\u0027, \u0027knocked loose\u0027,\u0027code orange\u0027,\u0027alcest\u0027,\u0027liturgy\u0027,\u0027inferi\u0027,\u0027artificial brain\u0027]\n# two of each pop, synthwave, poppunk, breakcore, beatdown, black, death | total: 14\n\n#seed_artist_list \u003d [\u0027billie eilish\u0027,\u0027the weeknd\u0027,\u0027taylor swift\u0027,\u0027megan thee stallion\u0027,\u0027drake\u0027,\u0027ariana grande\u0027,\u0027bts\u0027,\u0027beyonce\u0027,\u0027lady gaga\u0027,\u0027ed sheeran\u0027,\u0027bruno mars\u0027]\n# mainstream artist list | total: 11\n\n [\u0027zillakami\u0027, \u0027mugxtsu\u0027,\u0027lil darkie\u0027, \u0027lotus eater\u0027, \u0027gravedgr\u0027,\u0027scarlxrd\u0027, \u0027blupill\u0027]\n# \"trap metal\" , a microgenre as described from The Punk Rock MBA | total: 7\n\n [\u0027bell witch\u0027, \u0027bereft\u0027,\u0027conjurer\u0027,\u0027the flight of sleipnir\u0027,\u0027fvneral fvkk\u0027,\u0027giant squid\u0027,\u0027horse latitudes\u0027,\u0027om\u0027,\u0027un\u0027,]\n# doom metal I like, emphasis on bands that take the genre in various experimental directions | total: 9\n\n\u0027aetheria conscientia\u0027, \u0027calligram\u0027,\u0027cobalt\u0027,\u0027cormorant\u0027,\u0027entropia\u0027,\u0027imperial triumphant\u0027,\u0027slaegt\u0027,\u0027thy catafalque\u0027]\n# black metal, same criterion as doom | total: 8\n\n[\u0027big chef\u0027, \u0027brainleak\u0027,\u0027capital punishment\u0027,\u0027consumed by vultures\u0027,\u0027decomposition of entrails\u0027,\u0027decimated humans\u0027,\u0027disfiguring the goddess\u0027,\u0027goratory\u0027,\u0027no one gets out alive\u0027,\u0027slamcoke\u0027]\n# oddball slamming death metal, emphasis on bands actually trying to sound different | total: 10\n\n [\u0027lorde\u0027,\u0027halsey\u0027,\u0027marina\u0027,\u0027florence + the machine\u0027,\u0027owl city\u0027,\u0027maggie rogers\u0027,\u0027mystery skulls\u0027,\u0027sara bareilles\u0027]\n# popular artist in vein of \"Lorde\"; breathy, art pop? | total: 8\n\n [\u0027mumford and sons\u0027, \u0027sonic youth\u0027,\u0027the shins\u0027,\u0027yeah yeah yeahs\u0027, \u0027white stripes\u0027]\n# inde rock artists | total: 5\n\n[\u0027shinedown\u0027, \u0027three days grace\u0027,\u0027papa roach\u0027, \u0027skillet\u0027, \u0027breaking benjamin\u0027,\u0027hoobastank\u0027,\u0027seether\u0027]\n# Butt Rock; evolution of grunge, butt rock is effectively post-post-grunge | total: 7\n\n[\u0027black flag\u0027,\u0027green day\u0027,\u0027a day to remember\u0027,\u0027blink-182\u0027,\u0027the melvins\u0027,\u0027the offspring\u0027,\u0027sex pistols\u0027,\u0027joy division\u0027]\n# Punk; some greats, some representing various subgenres | total: 8\n\ngenres:         total: 85 artists\n    Pop:        total: 18\n        hyperpop, art pop, pop-country, r \u0026 b\n    Electric:   total: 4\n        future-funk, synthwave, breakcore\n    Metal:      total: 31\n        black | post-black, black/crust, avant-garde, death | slam, tech-death, doom | funeral, prog, stoner, drone\n    Rock:       total: 12\n        alt, inde, grunge, butt\n    Rap:        total: 10\n        trap metal, party rap\n    Punk:       total: 10\n        beatdown, hardcore, oldschool, pop-punk, easycore, post-punk\n\nThese 85 seed artists spawned a network spanning just under 25,000 artists.  \n",
-    "intro": "Network of artists and their related artists as found on Spotify",
-    "title": "Spotify Related Artist Network"
+    "more": "Have you ever wanted to browse Spotify, but find its browsing for similar artists to be lackluster? This is for you.\n\n\nData captured allows one to see the top three genre descriptors as defined by Spotify, as well as Spotify popularity index and URI. \n\n\nThe Spotify popularity index is proprietary and thus we don\u0027t know exactly how it\u0027s calculated, however we know that it\u0027s a ranking system from 0-100 that ranks an artist relative to all other artists on the platform. This index seems to influence how an artist places on algorithmically made playlists and Spotify discovery and recommendation. It also seems to be derived from metrics such as the age of tracks, number of listens and saves among others, but it\u0027s not known for sure. However, I believe it\u0027s a useful metric for the end-user as it allows an \"at a glance\" look for an artist\u0027s popularity; that is, the higher the number, the higher chance the artist is well known.\n\n\nThe Spotify URI capture allows the user to copy/paste URI into Spotify and be directed to the artist\u0027s Spotify entry. I find this to be a more reliable way of searching for artists, especially with the similarly/exactly named artists. \n\n\nThe network itself is colored by modularity class; this statistic determines the number of clusters within some network. This highlights similar artist \"communities\", that may or not share the same reported genres but will be one the listener might like. The nodes are sized by their Betweenness Centrality, which is a number that represents how many times a node is \"walked over\" in shortest walk paths between two nodes. This easily highlights the \"bridge\" to various communities, and could serve as a \"gateway artist\" for these subgenres. I also list Eccentricity for each artist; this is the maximum distance between one node and any other node within the graph. This essentially shows how dissimilar each artist is from the rest of the group.",
+    "intro": "A visualization of artists and their related artists from Spotify.",
+    "title": "Artist Relationship Network"
   },
   "legend": {
-    "edgeLabel": "Related Artist",
-    "colorLabel": "Gephi-Determined Communities",
-    "nodeLabel": "Artists"
+    "edgeLabel": "Recommendation",
+    "colorLabel": "Modularity Class",
+    "nodeLabel": "Artist"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "genre",
-    "hoverBehavior": "dim"
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
@@ -33,16 +33,16 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2.5,
-      "minEdgeSize": 1.0,
-      "minNodeSize": 0.5,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
       "maxNodeSize": 7
     },
     "mouseProperties": {

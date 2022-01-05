@@ -34,7 +34,7 @@
 ['mumford and sons', 'sonic youth','the shins','yeah yeah yeahs', 'white stripes','murder by death','Half alive']
 
 #alt rock
-[arcade fire, ]
+['the drums','arcade fire','my chemical romance','death cab for cutie','','','','']
 
 #post grunge era rock
 ['shinedown', 'three days grace','papa roach', 'skillet', 'breaking benjamin','hoobastank','seether']
