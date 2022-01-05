@@ -1,0 +1,44 @@
+
+['','','','','','','','']
+
+#pop
+['billie eilish','the weeknd','taylor swift','megan thee stallion','drake','ariana grande']
+['bts','beyonce','lady gaga','ed sheeran','bruno mars','100 gecs','yung bae','alan walker']
+['lorde','halsey','marina','florence + the machine','owl city','maggie rogers','mystery skulls','sara bareilles']
+
+#rap
+['zillakami', 'mugxtsu','lil darkie', 'lotus eater', 'gravedgr','scarlxrd', 'blupill']
+['Mike Dimes','Aries','Ian Dior','Tristam','Cylriel']
+
+#electronic
+['varien','igorrr','drumcorps','aphex', 'burial', 'crystal castles', 'machine girl', 'sweet trip', 'goreshit', 'sorrow']
+
+#jazz
+['casiopea','john coltrane','dizzy gillespie','miles davis','bessie smith','funky knuckles','sungazer','aberdeen','george gerswin']
+
+
+#doom metal
+['bell witch', 'bereft','conjurer','the flight of sleipnir','fvneral fvkk','giant squid','horse latitudes','om','un']
+
+
+#black metal
+['aetheria conscientia', 'calligram','cobalt','cormorant','entropia']
+['imperial triumphant','slaegt','thy catafalque','liturgy','alcest']
+
+#death metal
+['big chef', 'brainleak','capital punishment','consumed by vultures','decomposition of entrails']
+['decimated humans','disfiguring the goddess','goratory','no one gets out alive','slamcoke','inferi','artificial brain']
+
+
+#folk/inde
+['mumford and sons', 'sonic youth','the shins','yeah yeah yeahs', 'white stripes','murder by death','Half alive']
+
+#alt rock
+[arcade fire, ]
+
+#post grunge era rock
+['shinedown', 'three days grace','papa roach', 'skillet', 'breaking benjamin','hoobastank','seether']
+
+#punk
+['black flag','green day','a day to remember','blink-182','the melvins','the offspring']
+['sex pistols','joy division','knocked loose','code orange','all time low','mod sun']
